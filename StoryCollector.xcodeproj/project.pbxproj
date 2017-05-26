@@ -13,6 +13,8 @@
 		22CA82EB1ED736E4005CF750 /* StoryCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22CA82E91ED736E4005CF750 /* StoryCollector.xcdatamodeld */; };
 		22CA82ED1ED736E4005CF750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CA82EC1ED736E4005CF750 /* Assets.xcassets */; };
 		22CA82F01ED736E4005CF750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CA82EE1ED736E4005CF750 /* LaunchScreen.storyboard */; };
+		22CA82F81ED73D39005CF750 /* BB PreK.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 22CA82F71ED73D39005CF750 /* BB PreK.jpeg */; };
+		22CA82FA1ED73E69005CF750 /* StoryAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA82F91ED73E69005CF750 /* StoryAddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		22CA82EC1ED736E4005CF750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22CA82EF1ED736E4005CF750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22CA82F11ED736E4005CF750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CA82F71ED73D39005CF750 /* BB PreK.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BB PreK.jpeg"; sourceTree = "<group>"; };
+		22CA82F91ED73E69005CF750 /* StoryAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryAddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		22CA82E11ED736E3005CF750 /* StoryCollector */ = {
 			isa = PBXGroup;
 			children = (
+				22CA82F71ED73D39005CF750 /* BB PreK.jpeg */,
 				22CA82E21ED736E3005CF750 /* AppDelegate.swift */,
 				22CA82E41ED736E3005CF750 /* ViewController.swift */,
+				22CA82F91ED73E69005CF750 /* StoryAddViewController.swift */,
 				22CA82E61ED736E3005CF750 /* Main.storyboard */,
 				22CA82EC1ED736E4005CF750 /* Assets.xcassets */,
 				22CA82EE1ED736E4005CF750 /* LaunchScreen.storyboard */,
@@ -129,6 +135,7 @@
 			files = (
 				22CA82F01ED736E4005CF750 /* LaunchScreen.storyboard in Resources */,
 				22CA82ED1ED736E4005CF750 /* Assets.xcassets in Resources */,
+				22CA82F81ED73D39005CF750 /* BB PreK.jpeg in Resources */,
 				22CA82E81ED736E4005CF750 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22CA82FA1ED73E69005CF750 /* StoryAddViewController.swift in Sources */,
 				22CA82E51ED736E3005CF750 /* ViewController.swift in Sources */,
 				22CA82E31ED736E3005CF750 /* AppDelegate.swift in Sources */,
 				22CA82EB1ED736E4005CF750 /* StoryCollector.xcdatamodeld in Sources */,
