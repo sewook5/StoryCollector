@@ -32,10 +32,11 @@ class StoryAddViewController: UIViewController, UIImagePickerControllerDelegate,
     }
 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+       
         let userPickedImage = info[UIImagePickerControllerOriginalImage] as! UIImage
-        
         storyImageView.image = userPickedImage
         imagePicker.dismiss(animated: true, completion: nil)
+    
     }
     
   
@@ -44,6 +45,16 @@ class StoryAddViewController: UIViewController, UIImagePickerControllerDelegate,
     
 
     @IBAction func addTapped(_ sender: Any) {
+        
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let story = Story(context: context)
+        story.title = storyTextField.text
+        story.imageToAdd = UIImagePNGRepresentation(storyImageView.image!) as! NSData
+        
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        
+        navigationController!.popViewController(animated: true)
     }
 
     
